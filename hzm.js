@@ -1,11 +1,21 @@
+/*
+
+ * @Author: hanfuxing
+
+ * @Gitee: https://gitee.com/hanfuxing
+
+ * @Date: 2020-11-20 10:42:06
+
+ * @LastEditTime: 2020-12-11 20:00:10
+
+ */
+
 const $ = new Env("互助码");
 
 const shareCodes = [
 
-  {
-
-    zd: $.getdata("zd_shareCode1") || "df3jsx3zjutrpmhhl7ert2nqpm
-",
+  { 
+    zd: $.getdata("zd_shareCode1") || "df3jsx3zjutrpmhhl7ert2nqpm",
 
     nc: $.getdata("nc_shareCode1") || "aee5aca404334c4eac9127b9dd4a443b",
 
